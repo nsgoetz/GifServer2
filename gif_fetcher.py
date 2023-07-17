@@ -14,7 +14,7 @@ class GifFetcher:
         self.api_key = self.read_api_key()
 
     def read_api_key(self) -> str:
-        base_path = "./SECRETS/{env}/giffy_api_key"
+        base_path = "./SECRETS/{env}/giphy_api_key"
 
         env_path = base_path.format(env=self.env)
 
