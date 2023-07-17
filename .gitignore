@@ -1,0 +1,13 @@
+# secrets
+
+SECRETS/test/*
+!SECRETS/test/README
+SECRETS/prod/*
+!SECRETS/prod/README
+
+# PyCharm Settings
+.idea/*
+
+# venv
+env/
+
