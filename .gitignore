@@ -1,5 +1,9 @@
-# secrets
 
+# Mac Things
+**/.DS_Store
+
+
+# secrets
 SECRETS/test/*
 !SECRETS/test/README
 SECRETS/prod/*
@@ -10,4 +14,7 @@ SECRETS/prod/*
 
 # venv
 env/
+
+# all gifs
+*.gif
 
